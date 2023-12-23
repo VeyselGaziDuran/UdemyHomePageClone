@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainWrapper {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.92);
+}
+
+.smartBarModule {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  background: #5624d0;
+  padding: 0 56px 0 56px;
+}
+
+.smartBar {
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.smartBar a {
+  color: #fff;
+  text-decoration-color: #ffffff62;
+}
+
+.xIcon {
+  position: absolute;
+  right: 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  background: #ffffff;
+  padding: 0 56px 0 56px;
+  border-bottom: 1px solid #00000062;
+}
+
+.logo a img {
+  width: 100px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #f7f9fa;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid #111;
+  width: 720px;
+  height: 46px;
+}
+
+.searchBar i {
+  color: #a5a5a5;
+  padding: 10px;
+}
+
+.searchBar input {
+  background-color: #f7f9fa;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 200px;
+}
+
+.navbarLinks a {
+  color: #000000b7;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbarLinks a:hover {
+  color: #5624d0;
+}
+
+.navbarİcons a i {
+  color: #000000b7;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbarİcons a i:hover {
+  color: #5624d0;
+}
+
+.navbarİconsUser {
+  color: #000000b7;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.navBarCategories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+  height: 47px;
+}
+
+.navBarCategories .navCatagories {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0 56px 0 56px;
+}
+
+.navBarCategories .navCatagories a {
+  color: #000000b7;
+  text-decoration: none;
+  font-size: 14px;
+}
